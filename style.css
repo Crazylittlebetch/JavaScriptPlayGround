@@ -1,0 +1,33 @@
+body{
+    background-color: whitesmoke;
+}
+
+.box{
+    text-align: center;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    width: 105px;
+    height: 105px;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.boxer{
+    border-radius: 10%;
+    color: white;
+    background-color: blue;
+    width: 6rem;
+    height: 4rem;
+    cursor: pointer;
+}
+
+.boxer:active{
+    opacity: 50%;
+}
+
+.boxer:hover{
+    background-color: darkblue;
+}
+
